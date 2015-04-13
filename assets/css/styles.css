@@ -1,0 +1,317 @@
+/* This CSS was never meant to be read, please go away.*/
+
+/* html5doctor.com Reset v1.6.1 (http://html5doctor.com/html-5-reset-stylesheet/) - http://cssreset.com */
+html,body,div,span,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,abbr,address,cite,code,del,dfn,em,img,ins,kbd,q,samp,small,strong,sub,sup,var,b,i,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,figcaption,figure,footer,header,hgroup,menu,nav,section,summary,time,mark,audio,video{margin:0;padding:0;border:0;outline:0;font-size:100%;vertical-align:baseline;background:transparent}
+body{line-height:1}
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section{display:block}
+nav ul{list-style:none}
+blockquote,q{quotes:none}
+blockquote:before,blockquote:after,q:before,q:after{content:none}
+a{margin:0;padding:0;font-size:100%;vertical-align:baseline;background:transparent}
+ins{background-color:#ff9;color:#000;text-decoration:none}
+mark{background-color:#ff9;color:#000;font-style:italic;font-weight:bold}
+del{text-decoration:line-through}
+abbr[title],dfn[title]{border-bottom:1px dotted;cursor:help}
+table{border-collapse:collapse;border-spacing:0}
+hr{display:block;height:1px;border:0;border-top:1px solid #ccc;margin:1em 0;padding:0}
+input,select{vertical-align:middle}
+
+/* End Reset */
+
+html, body{
+	width:100%;
+	height:100%;
+	margin: 0 auto;
+	padding: 0;
+	font-family: 'freight-sans-pro', 'sans-serif';
+	font-weight:100;
+	text-align:center;
+}
+
+a{
+	text-decoration: none;
+}
+
+#banner{
+	height:512px;
+	width:100%;
+	position:relative;
+	color: white;
+	overflow:hidden;
+}
+
+.layout{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+
+#banner-image{
+	position:absolute;
+	width:100%;
+	height:512px;
+	background-image: url('../img/bg.jpg');
+	background-size:cover;
+}
+
+#banner-overlay{
+	position:absolute;
+	background-color:#000;
+	display:block;
+	height:100%;
+	width:100%;
+	opacity:0.0;
+	z-index:0;
+}
+
+#banner-top{
+position: absolute;
+margin-left: auto;
+margin-right: auto;
+left: 0;
+right: 0;
+bottom: 0;
+width:900px;
+}
+
+#banner-left{
+	height:400px;
+	width:400px;
+	float:left;
+}
+
+#banner-right{
+	
+	margin-left:75px;
+	float:left;
+}
+
+.banner-screenshot{
+	width:400px;
+	position:absolute;
+	top:0;
+	left:0;
+}
+
+.icon{
+	width:80px;
+	margin-bottom:15px;
+}
+
+
+h1, h2{
+	font-weight: 300;
+	line-height:32px;
+
+}
+
+h1{
+	font-size:48px;
+	font-weight:100;
+}
+
+h2{
+	font-size:19px;
+	margin-top:10px;
+}
+
+.light-divider{
+	height:1px;
+	background-color:#FFF;
+	margin: 0 auto;	
+}
+
+.dark-divider{
+	height:1px;
+	background-color:#CCC;
+}
+
+.width-50{
+	width:50px;
+}
+
+.social-links{
+	list-style:none;
+}
+
+.social-links li{
+	display:inline-block;
+	margin-left:5px;
+	margin-right:5px;
+	font-size:18px;
+}
+
+.social-top{
+	margin-top:25px;
+}
+
+.social-top li a{
+
+	color:white;
+	opacity: 0.8;
+	-webkit-transition: opacity 0.1s ease-in;
+	-moz-transition: opacity 0.1s ease-in;
+	-ms-transition: opacity 0.1s ease-in;
+	transition: opacity 0.1s ease-in;
+}
+
+.social-top li a:hover{
+	opacity:1;
+}
+
+.white{
+	color:#FFF;
+}
+
+.mas-badge-top{
+	margin-top:25px;
+	display: block;
+}
+
+.half{
+	width:50%;
+}
+
+
+#title-img{
+	width:140px;
+}
+
+#features{
+	margin-top:120px;
+}
+
+.feature{
+	width:800px;
+	margin: 0 auto;
+	height:400px;
+	color:#666;
+}
+
+.feature img{
+	width:352px;
+}
+
+.left img, .right .feature-text{
+	float:right;
+}
+
+.right img, .left .feature-text{
+	float:left;
+}
+
+.feature-text{
+	width:386px;
+  	color:#666;
+  	margin-top:70px;
+}
+
+.feature-title{
+	font-weight:500;
+	font-size:36px;
+}
+
+.feature-body{
+	font-weight:300;
+	font-size:19px;
+	line-height:32px;
+	margin-top:15px;
+}
+
+.left{
+	text-align:left;
+}
+
+.right{
+	text-align:right;
+}
+
+.dark-divider{
+	height:1px;
+	background-color:#EFEFEF;
+	margin: 0 auto;	
+	width:800px;
+}
+.big{
+	width:1024px !important;
+}
+
+#bottom-banner-container{
+	padding-bottom:75px;
+}
+
+#bottom-banner{
+	width:1000px;
+	height:130px;
+	margin: 0 auto;
+
+	
+}
+
+
+.mas-badge-bottom{
+	display: block;
+	float:right;
+	margin-right:-25px;
+	margin-top:40px;
+
+}
+
+.bottom-title{
+	width:140px;
+	float:left;
+	margin-left:25px;
+	margin-top:40px;
+}
+
+.bottom-icon{
+	display:block;
+	float:left;
+	margin-left:50px;
+	margin-top:25px;
+}
+
+footer{
+
+	font-size:18px;
+color:#AAA;
+font-weight:500;
+padding-bottom:50px;
+}
+
+footer ul li{
+	display:inline;
+	padding-right:10px;
+}
+
+footer a{
+	color:#AAA;
+	font-weight:500;
+	border-bottom: 1px solid #EFEFEF;
+	-webkit-transition: border-bottom 0.15s ease-in-out;
+	-moz-transition: border-bottom 0.15s ease-in-out;
+	-o-transition: border-bottom 0.15s ease-in-out;
+	-ms-transition: border-bottom 0.15s ease-in-out;
+	transition: border-bottom 0.15s ease-in-out;
+}
+
+footer a:hover{
+	border-bottom: 1px solid #AAAAAA;
+	color:#AAA;
+}
+
+
+
+.footer-text{
+	font-size:18px;
+	font-weight:100;
+
+}
+
+.footer-text a{
+	font-weight:100;
+}
+
+#copy{
+	font-size:14px;
+}
